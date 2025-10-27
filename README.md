@@ -15,3 +15,12 @@ We are going to model how characters in Shakespeare, give the context of charact
 
 
 ## Reading and Exploring Data
+* See characters and build the vocab
+
+
+## Tokenization
+Short sequences of integers with very large vocabularies V.S. Long sequences of integers with small vocabularies.
+
+`hii there`
+* Basic mapping with all characters: 2, 46, 46, 1, 52, 2, 12, 54, 12 with only 65 vocabularies.
+* Tiktoken: 71, 4178, 612 with 50257 vocabularies.
